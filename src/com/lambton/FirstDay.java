@@ -25,5 +25,15 @@ public class FirstDay
         student s1 = new student();
         s1.setValues();
         s1.display();
+
+        student s2 = new student();
+        s2.studentID = 2;
+        s2.studentName = "chahal";
+        s2.display();
+
+        student s3 = new student();
+        s3.studentID = 3;
+        s3.studentName = "Rajdeep_chahal";
+        s3.display();
     }
 }
